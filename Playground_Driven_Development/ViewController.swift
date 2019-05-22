@@ -7,14 +7,22 @@
 //
 
 import UIKit
+import Cheers
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let cheerView = CheerView()
+        view.addSubview(cheerView)
+        cheerView.frame = view.bounds
+        
+        // Configure
+        cheerView.config.particle = .confetti(allowedShapes: [Particle.ConfettiShape.circle])
+        
+        // Start
+        cheerView.start()
     }
-
-
 }
 

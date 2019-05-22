@@ -12,9 +12,41 @@
 		12C40206229576C70010BDBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C40204229576C70010BDBA /* Main.storyboard */; };
 		12C40208229576CF0010BDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C40207229576CF0010BDBA /* Assets.xcassets */; };
 		12C4020B229576CF0010BDBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C40209229576CF0010BDBA /* LaunchScreen.storyboard */; };
+		12C4021B229579E30010BDBA /* AppFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C40219229579E30010BDBA /* AppFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12C4021E229579E30010BDBA /* AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C40217229579E30010BDBA /* AppFramework.framework */; };
+		12C4021F229579E30010BDBA /* AppFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12C40217229579E30010BDBA /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		12C4022422957A090010BDBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C40202229576C70010BDBA /* ViewController.swift */; };
+		28E84D8D05D2469051D49B6D /* Pods_AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007183A4FE09E9CD29D5AF1E /* Pods_AppFramework.framework */; };
+		6E2FD54A538B0E64531B7A85 /* Pods_Playground_Driven_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AB7502CB346A5A258634FB /* Pods_Playground_Driven_Development.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		12C4021C229579E30010BDBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C401F5229576C70010BDBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C40216229579E30010BDBA;
+			remoteInfo = AppFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12C40223229579E30010BDBA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				12C4021F229579E30010BDBA /* AppFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		007183A4FE09E9CD29D5AF1E /* Pods_AppFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB89C40BA92D4ABB5D620B9 /* Pods-Playground_Driven_Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground_Driven_Development.release.xcconfig"; path = "Target Support Files/Pods-Playground_Driven_Development/Pods-Playground_Driven_Development.release.xcconfig"; sourceTree = "<group>"; };
 		12C401FD229576C70010BDBA /* Playground_Driven_Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground_Driven_Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C40200229576C70010BDBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12C40202229576C70010BDBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +54,13 @@
 		12C40207229576CF0010BDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C4020A229576CF0010BDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12C4020C229576CF0010BDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C40217229579E30010BDBA /* AppFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C40219229579E30010BDBA /* AppFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppFramework.h; sourceTree = "<group>"; };
+		12C4021A229579E30010BDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AB7502CB346A5A258634FB /* Pods_Playground_Driven_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playground_Driven_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEF0EE8C8F30E20FC3BE2A5 /* Pods-AppFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFramework.release.xcconfig"; path = "Target Support Files/Pods-AppFramework/Pods-AppFramework.release.xcconfig"; sourceTree = "<group>"; };
+		80E956D345F26829E9CDBB03 /* Pods-Playground_Driven_Development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground_Driven_Development.debug.xcconfig"; path = "Target Support Files/Pods-Playground_Driven_Development/Pods-Playground_Driven_Development.debug.xcconfig"; sourceTree = "<group>"; };
+		BF8A995750CD86F0D4DF93DB /* Pods-AppFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFramework.debug.xcconfig"; path = "Target Support Files/Pods-AppFramework/Pods-AppFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +68,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C4021E229579E30010BDBA /* AppFramework.framework in Frameworks */,
+				6E2FD54A538B0E64531B7A85 /* Pods_Playground_Driven_Development.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C40214229579E30010BDBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E84D8D05D2469051D49B6D /* Pods_AppFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				12C401FF229576C70010BDBA /* Playground_Driven_Development */,
+				12C40218229579E30010BDBA /* AppFramework */,
 				12C401FE229576C70010BDBA /* Products */,
+				809C347609B3E6811E4F4CF7 /* Pods */,
+				E0A98206E21691EE40A1E450 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				12C401FD229576C70010BDBA /* Playground_Driven_Development.app */,
+				12C40217229579E30010BDBA /* AppFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,25 +117,88 @@
 			path = Playground_Driven_Development;
 			sourceTree = "<group>";
 		};
+		12C40218229579E30010BDBA /* AppFramework */ = {
+			isa = PBXGroup;
+			children = (
+				12C40219229579E30010BDBA /* AppFramework.h */,
+				12C4021A229579E30010BDBA /* Info.plist */,
+			);
+			path = AppFramework;
+			sourceTree = "<group>";
+		};
+		809C347609B3E6811E4F4CF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF8A995750CD86F0D4DF93DB /* Pods-AppFramework.debug.xcconfig */,
+				7FEF0EE8C8F30E20FC3BE2A5 /* Pods-AppFramework.release.xcconfig */,
+				80E956D345F26829E9CDBB03 /* Pods-Playground_Driven_Development.debug.xcconfig */,
+				0CB89C40BA92D4ABB5D620B9 /* Pods-Playground_Driven_Development.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0A98206E21691EE40A1E450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				007183A4FE09E9CD29D5AF1E /* Pods_AppFramework.framework */,
+				71AB7502CB346A5A258634FB /* Pods_Playground_Driven_Development.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12C40212229579E30010BDBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4021B229579E30010BDBA /* AppFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		12C401FC229576C70010BDBA /* Playground_Driven_Development */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12C4020F229576CF0010BDBA /* Build configuration list for PBXNativeTarget "Playground_Driven_Development" */;
 			buildPhases = (
+				3677E1A69BC6D7D6BDAA8142 /* [CP] Check Pods Manifest.lock */,
 				12C401F9229576C70010BDBA /* Sources */,
 				12C401FA229576C70010BDBA /* Frameworks */,
 				12C401FB229576C70010BDBA /* Resources */,
+				12C40223229579E30010BDBA /* Embed Frameworks */,
+				594DC188FB78C6B9EAC1999B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				12C4021D229579E30010BDBA /* PBXTargetDependency */,
 			);
 			name = Playground_Driven_Development;
 			productName = Playground_Driven_Development;
 			productReference = 12C401FD229576C70010BDBA /* Playground_Driven_Development.app */;
 			productType = "com.apple.product-type.application";
+		};
+		12C40216229579E30010BDBA /* AppFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C40222229579E30010BDBA /* Build configuration list for PBXNativeTarget "AppFramework" */;
+			buildPhases = (
+				4D8C2CE603F3A51D9493817A /* [CP] Check Pods Manifest.lock */,
+				12C40212229579E30010BDBA /* Headers */,
+				12C40213229579E30010BDBA /* Sources */,
+				12C40214229579E30010BDBA /* Frameworks */,
+				12C40215229579E30010BDBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppFramework;
+			productName = AppFramework;
+			productReference = 12C40217229579E30010BDBA /* AppFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +211,9 @@
 				ORGANIZATIONNAME = "Ara Hakobyan";
 				TargetAttributes = {
 					12C401FC229576C70010BDBA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					12C40216229579E30010BDBA = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -113,6 +232,7 @@
 			projectRoot = "";
 			targets = (
 				12C401FC229576C70010BDBA /* Playground_Driven_Development */,
+				12C40216229579E30010BDBA /* AppFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +248,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12C40215229579E30010BDBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3677E1A69BC6D7D6BDAA8142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playground_Driven_Development-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8C2CE603F3A51D9493817A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594DC188FB78C6B9EAC1999B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground_Driven_Development/Pods-Playground_Driven_Development-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cheers/Cheers.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cheers.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playground_Driven_Development/Pods-Playground_Driven_Development-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12C401F9229576C70010BDBA /* Sources */ = {
@@ -140,7 +336,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12C40213229579E30010BDBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4022422957A090010BDBA /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12C4021D229579E30010BDBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C40216229579E30010BDBA /* AppFramework */;
+			targetProxy = 12C4021C229579E30010BDBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		12C40204229576C70010BDBA /* Main.storyboard */ = {
@@ -280,7 +492,9 @@
 		};
 		12C40210229576CF0010BDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E956D345F26829E9CDBB03 /* Pods-Playground_Driven_Development.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WK8C7HUHMZ;
@@ -298,7 +512,9 @@
 		};
 		12C40211229576CF0010BDBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB89C40BA92D4ABB5D620B9 /* Pods-Playground_Driven_Development.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WK8C7HUHMZ;
@@ -311,6 +527,64 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12C40220229579E30010BDBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8A995750CD86F0D4DF93DB /* Pods-AppFramework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WK8C7HUHMZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AppFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.com.AppFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C40221229579E30010BDBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEF0EE8C8F30E20FC3BE2A5 /* Pods-AppFramework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WK8C7HUHMZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AppFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.com.AppFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -331,6 +605,15 @@
 			buildConfigurations = (
 				12C40210229576CF0010BDBA /* Debug */,
 				12C40211229576CF0010BDBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C40222229579E30010BDBA /* Build configuration list for PBXNativeTarget "AppFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C40220229579E30010BDBA /* Debug */,
+				12C40221229579E30010BDBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

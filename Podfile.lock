@@ -1,0 +1,16 @@
+PODS:
+  - Cheers (2.2.0)
+
+DEPENDENCIES:
+  - Cheers
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cheers
+
+SPEC CHECKSUMS:
+  Cheers: 989a480646acb20100665fce282aba8f2b5c452f
+
+PODFILE CHECKSUM: b1e64b7a6824a7485e979f182017a6c7fab5f001
+
+COCOAPODS: 1.6.1
